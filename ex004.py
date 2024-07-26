@@ -1,0 +1,10 @@
+variavel = input( "Informe algo a ser analisado: " )
+
+print( "Tipo primordial: ", type(variavel) )
+print( "Só tem espaços? ", variavel.isspace() )
+print( "É um número? ", variavel.isnumeric() )
+print( "É alfabético? ", variavel.isalpha() )
+print( "É alfanumérico? ", variavel.isalnum() )
+print( "Está em maisculo? " + variavel.isupper() )
+print( "Está em minisculo? " + variavel.islower() )
+print( "Está capitalizada? " + variavel.istitle() )
